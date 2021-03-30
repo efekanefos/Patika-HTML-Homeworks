@@ -8,23 +8,29 @@
   </head>
   <body>
     <center>
+      <!-- Eklediğimiz Google resminin sayfanın ortasında bulunmasını sağlamak için img etiketini saran bir center etiketi oluşturuyoruz -->
       <img src="./img/google.jpg" width="351" height="113" alt="Google!" />
     </center>
 
     <center>
       <section style="background-color: #eeee; width: 90%">
+        <!-- Table yapısı olmadan input kısmını oluşturduğumda bgcolor ifadesini kullanamadım. Ben de az miktarda css ile section genişliğini ve arkaplan rengini ayarladım. -->
         Search the web using Google!
         <div>
           <input size="40" type="search" name="google" id="google" />
         </div>
         <div>
+          <!-- button yapıları block şeklinde display edilmediklerinden yani sadece oldukları kadar alan kapladıklarından alt alta eklendikten sonra site üzerinde yan yana gözüktüler. -->
           <button>Google Search</button>
           <button>I'm feeling lucky</button>
         </div>
       </section>
     </center>
     <center>
+      <!-- center etiketini aynı sebebpten ötürü alt kısımda kullandığımız table yapısı üzerinde de kullanıyoruz. -->
+
       <table border="0" width="90.4%">
+        <!-- border="0" ile table yapısında default olarak bulunan kenarlıkları sildik ve arama barının genişliği ile aynı genişliğe sahip olması için resimler üzerinde de kullanmış olduğumuz width değerini kullandık. -->
         <tr>
           <td align="left" width="37%" bgcolor="#7EE5DA">
             <center>
@@ -42,6 +48,7 @@
           <td bgcolor="#70CCC2">
             <center>
               <font size="-1">
+                <!-- Orta kısımda bulunan buradaki linklerin yazı boyutu normal yazı boyutunun biraz daha altında olduğundan font etiketinin size özelliğini -1 şeklinde ayarlıyor ve daha küçük bir yazı boyutu elde ediyoruz. -->
                 <a
                   href="https://web.archive.org/web/19990221212930if_/http://www.google.com/help.html"
                   >Help!</a
@@ -66,6 +73,7 @@
             </center>
           </td>
           <td align="right" bgcolor="#62B3AA">
+            <!-- Table yapısı içerisinde bulunan sütunları doğru şekilde hizalamak yani istediğimiz sütunu sağa veya sola yaslamak için align yapısını kullanıyoruz. -->
             <center>
               <font size="-1">
                 Get Google! <br />
@@ -89,6 +97,7 @@
     </center>
     <p>
       <center><font size="-1">Copyright &copy;1998 Google Inc.</font></center>
+      <!-- copyright simgesini kullanmak için &copy; yazdık. -->
     </p>
   </body>
 </html>
